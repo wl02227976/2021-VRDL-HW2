@@ -22,7 +22,7 @@ To install requirements:
 #run the Anaconda Prompt
 conda create -n hw2 python=3.7 -y
 conda activate hw2
-conda install pytorch torchvision cudatoolkit -c pytorch -y
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
 git clone https://github.com/wl02227976/2021-VRDL-HW2
 cd 2021-VRDL-HW2
