@@ -40,7 +40,7 @@ python data_preprocess.py
 ```
 
 create the folder named "valid" in "data" folder
-put 30001.png~33402.png(in "/data/train/) and 30001.txt~33402.txt(in "/data/train/) into "valid"folder
+put 30001.png~33402.png(in "/data/train/") and 30001.txt~33402.txt(in "/data/train/") into "valid"folder
 
 
 
