@@ -2,7 +2,7 @@ import os
 import cv2
 import json
 
-filepath = 'runs/detect/exp/labels/'
+filepath = 'runs/detect/exp4/labels/'
 filenames_path='data/test'
 
 filenames=os.listdir(filenames_path)
@@ -21,7 +21,7 @@ for i in range(13068):
         contents = f.readlines()
 
         img_name = filenames[i]
-        im = cv2.imread('data/svhn/test/'+img_name)
+        im = cv2.imread('data/test/'+img_name)
         h, w, c = im.shape
         # print(h,w)
         
