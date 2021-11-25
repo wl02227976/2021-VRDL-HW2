@@ -5,8 +5,8 @@ This repository is the official implementation of [2021 VRDL HW1](https://compet
 
 ## Reproducing Submission
 1. [Requirements](#Requirements)
-2. [Pretrained_Model](#Pretrained_Model)(After downloading, put it into 'model_to_inference' folder.)
-3. [Dataset](#Dataset)(Download the testing_images,unzip it and put it into 'dataset' folder)
+2. [Pretrained_Model](#Pretrained_Model)(After downloading, put it into 'weights' folder.)
+3. [Data](#Data)
 4. [Inference](#Inference)
 
 ### Environment
