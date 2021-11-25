@@ -58,6 +58,9 @@ python train.py --img 320 --batch 16 --epochs 50 --data svhn.yaml --weights yolo
 
 
 ## Inference
+Use [colab](https://drive.google.com/file/d/1k6zzedxfWwQWVEILrc5_faeMqtlFDfiP/view?usp=sharing)
+or
+
 ```Inference
 python detect.py --source data/test/ --weights runs/train/exp3/weights/hw2.pt --conf 0.25 --save-txt --save-conf
 python answer.py
