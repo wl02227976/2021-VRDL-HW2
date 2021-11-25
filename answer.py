@@ -2,7 +2,7 @@ import os
 import cv2
 import json
 
-filepath = 'runs/detect/exp4/labels/'
+filepath = 'runs/detect/exp/labels/'
 filenames_path='data/test'
 
 filenames=os.listdir(filenames_path)
