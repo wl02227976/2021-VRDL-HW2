@@ -62,3 +62,14 @@ python train.py --img 320 --batch 16 --epochs 50 --data svhn.yaml --weights yolo
 python detect.py --source data/test/ --weights runs/train/exp3/weights/hw2.pt --conf 0.25 --save-txt --save-conf
 python answer.py
 ```
+
+## Reference
+https://github.com/ultralytics/yolov5/releases
+https://blog.csdn.net/iteapoy/article/details/117899064
+https://www.vitaarca.net/post/tech/access_svhn_data_in_python/
+
+
+
+
+
+
