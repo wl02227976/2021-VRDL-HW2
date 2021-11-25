@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 
-##Data
+## Data
 Download the dataset(test.zip and train.zip) from [data](https://drive.google.com/drive/folders/1rcPvAKc6IzfcppW4ShS8HRmYsaB6llvk?usp=sharing)
 put them into the data folder and unzip them
 
