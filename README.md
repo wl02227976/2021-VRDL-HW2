@@ -19,5 +19,29 @@ This repository is the official implementation of [2021 VRDL HW1](https://compet
 To install requirements:
 
 ```setup
+#run the Anaconda Prompt
+conda create -n hw2 python=3.7 -y
+conda activate hw2
+conda install pytorch torchvision cudatoolkit -c pytorch -y
+
+git clone https://github.com/wl02227976/2021-VRDL-HW2
+cd 2021-VRDL-HW2
+
 pip install -r requirements.txt
 ```
+
+
+##Data
+Download the dataset(test.zip and train.zip) from [data](https://drive.google.com/drive/folders/1rcPvAKc6IzfcppW4ShS8HRmYsaB6llvk?usp=sharing)
+put them into the data folder and unzip them
+
+```data
+python data_preprocess.py
+```
+
+create the folder named "valid" in "data" folder
+put 30001.png~33402.png(in "/data/train/) and 30001.txt~33402.txt(in "/data/train/) into "valid"folder
+
+
+
+
