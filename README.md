@@ -39,7 +39,7 @@ and unzip it in "2021-VRDL-HW2/"
 
 ## Data
 Download the dataset(test.zip and train.zip) from [here](https://drive.google.com/drive/folders/1rcPvAKc6IzfcppW4ShS8HRmYsaB6llvk?usp=sharing)
-put them into the "data" folder and unzip them
+and put them into the "data" folder and unzip them
 
 ```data
 python data_preprocess.py
