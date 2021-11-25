@@ -44,4 +44,8 @@ put 30001.png-33402.png(in "/data/train/") and 30001.txt-33402.txt(in "/data/tra
 
 
 
-
+## Inference
+```Inference
+python detect.py --source data/test/ --weights runs/train/exp3/weights/hw2.pt --conf 0.25 --save-txt --save-conf
+python answer.py
+```
