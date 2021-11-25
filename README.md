@@ -32,7 +32,8 @@ pip install -r requirements.txt
 
 ## Pretrained_Model
 Download the [runs.zip](https://drive.google.com/drive/folders/1rcPvAKc6IzfcppW4ShS8HRmYsaB6llvk?usp=sharing)
-unzip it in "2021-VRDL-HW2/"
+
+and unzip it in "2021-VRDL-HW2/"
 
 
 
