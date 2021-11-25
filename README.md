@@ -5,7 +5,7 @@ This repository is the official implementation of [2021 VRDL HW1](https://compet
 
 ## Reproducing Submission
 1. [Requirements](#Requirements)
-2. [Pretrained_Model]
+2. [Pretrained_Model](#Pretrained_Model)
 3. [Data](#Data)
 4. [Inference](#Inference)
 
