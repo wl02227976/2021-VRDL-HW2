@@ -62,6 +62,8 @@ python train.py --img 320 --batch 16 --epochs 50 --data svhn.yaml --weights yolo
 python detect.py --source data/test/ --weights runs/train/exp3/weights/hw2.pt --conf 0.25 --save-txt --save-conf
 python answer.py
 ```
+answer.json will be in "2021 VRDL HW2/"
+
 
 ## Reference
 https://github.com/ultralytics/yolov5/releases
