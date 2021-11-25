@@ -48,6 +48,13 @@ python data_preprocess.py
 create the folder named "valid" in "data" folder
 put 30001.png-33402.png(in "/data/train/") and 30001.txt-33402.txt(in "/data/train/") into "valid"folder
 
+## Train
+Download the [yolov5m.pt](https://github.com/ultralytics/yolov5/releases)
+and put it in "2021-VRDL-HW2/weights"
+```Train
+python train.py --img 320 --batch 16 --epochs 50 --data svhn.yaml --weights yolov5m.pt
+```
+
 
 
 ## Inference
